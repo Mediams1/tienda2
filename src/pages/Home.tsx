@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import dynamic from "next/dynamic"
 import { products } from "../data/products"
 import { Search } from "lucide-react"
+import "../styles/globals.css"
 
 // Importar ProductCard sin SSR
 const ProductCard = dynamic(() => import("../components/ProductCard").then(mod => ({ default: mod.ProductCard })), {
