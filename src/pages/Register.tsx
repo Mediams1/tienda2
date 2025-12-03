@@ -5,7 +5,6 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useAuth } from "../context/AuthContext"
 import { Mail, Lock, User, AlertCircle } from "lucide-react"
-import "../../styles/globals.css"
 
 export default function Register() {
   const [name, setName] = useState("")
