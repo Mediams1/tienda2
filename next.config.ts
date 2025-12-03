@@ -6,10 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   reactStrictMode: true,
-  // Esto asegura que no haya prerendering
-  generateBuildId: async () => {
-    return 'build'
-  },
+  // Next.js exportará automáticamente a 'out'
 }
 
 export default nextConfig
