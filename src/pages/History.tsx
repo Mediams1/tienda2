@@ -5,6 +5,7 @@ import dynamic from "next/dynamic"
 import Link from "next/link"
 import { useAuth } from "../context/AuthContext"
 import { Package, Calendar, ArrowLeft } from "lucide-react"
+import "../styles/globals.css"
 
 function History() {
   const { user, purchases } = useAuth()
