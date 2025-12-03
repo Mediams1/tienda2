@@ -6,7 +6,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useAuth } from "../context/AuthContext"
 import { Mail, Lock, AlertCircle } from "lucide-react"
-import "../styles/globals.css"
+import "../../styles/globals.css"
 
 export default function Login() {
   const [email, setEmail] = useState("")
