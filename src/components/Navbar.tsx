@@ -25,7 +25,7 @@ export function Navbar() {
         <div className="flex justify-between h-16 items-center">
           <Link href="/" className="flex items-center gap-2">
             <ShoppingCart className="h-8 w-8 text-primary" />
-            <span className="font-bold text-xl text-foreground">TechStore</span>
+            <span className="font-bold text-xl text-foreground">SoftBenny</span>
           </Link>
 
           {/* Desktop Nav */}
