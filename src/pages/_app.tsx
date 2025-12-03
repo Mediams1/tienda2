@@ -10,7 +10,7 @@ import Login from "./Login"
 import Register from "./Register"
 import Cart from "./Cart"
 import History from "./History"
-import "../styles/globals.css"
+import "../../styles/globals.css"
 
 function App() {
   const [mounted, setMounted] = useState(false)
