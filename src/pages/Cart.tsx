@@ -5,6 +5,7 @@ import { useCart } from "../context/CartContext"
 import { useAuth } from "../context/AuthContext"
 import { Trash2, Plus, Minus, ShoppingBag, ArrowLeft, AlertCircle } from "lucide-react"
 import { useState, useEffect } from "react"
+import "../styles/globals.css"
 
 export default function Cart() {
   const { items, removeFromCart, updateQuantity, clearCart, total } = useCart()
